@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header__section {
+    padding: 22px 0;
+    background-color: #000000;
+}
+
+.header__conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    column-gap: 3px;
+    width: 87px;
+    height: 31px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.nav__link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.social-media__section {
+    padding: 32px 0 20px 0;
+    background-color: #F5F5F5;
+}
+
+.social-media__containers {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.social-media__container_text {
+    max-width: 470px;
+}
+
+.social-media__container_links {
+    max-width: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.social-media__header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.social-media__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+.awesome__section {
+    padding: 100px 0;
+    text-align: center;
+    color: #000000;
+}
+
+.awesome__conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.awesome__header {
+    margin-bottom: 92px;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.line {
+    display: inline-block;
+    width: 170px;
+    height: 0;
+    border: 1px solid #EC7979;
+    
+}
+
+.text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-top: 40px;
+}
+
+.awesome__list {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 27px;
+}
+
+.awesome__item {
+    max-width: 371px;
+}
+
+.awesome__wrapper-icon {
+    width: 92.25px;
+    height: 92px; 
+    margin: 0 auto 24px auto;
+}
+
+.awesome__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.awesome__text {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.pricing__section {
+    padding: 82.5px 0;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.pricing__conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.line {
+    display: inline-block;
+    width: 170px;
+    height: 0;
+    border: 1px solid #EC7979;
+    
+}
+
+.text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin: 40px 0 79px 0;
+}
+
+.pricing__blocks {
+    display: flex;
+    column-gap: 30px;
+}
+
+.pricing__block {
+    width: 370px;
+    background-color: #FFFFFF;
+}
+
+.pricing__title,
+.pricing__price {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+}
+
+.pricing__title,
+.pricing__price,
+.pricing__subtitle {
+    color: #FFFFFF;
+}
+
+.pricing__item {
+    border: 2px solid #F5F5F5;
+}
+
+.pricing__item_dark-bg {
+    background-color: #333333;
+}
+
+.pricing__title {
+    margin: 13px 0;
+}
+
+.pricing__price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 29px 0;
+}
+
+.pricing__subtitle,
+.pricing__text {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #86878B;
+    padding: 14px 0;
+}
+
+
+.footer__section {
+    padding: 35px 0 27px 0;
+    background-color: #000000;
+}
+
+.footer__container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32.8px;
+    list-style-type: none;
+
+}
+
+.footer__wrapper-icon {
+    max-width: 53.2px;
+    height: 53.2px; 
+}
+
+.footer__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(217, 217, 217, 0.5);
+    text-align: center;
+    margin-top: 24px;
+}
